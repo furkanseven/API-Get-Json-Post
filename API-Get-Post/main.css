@@ -1,0 +1,19 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: auto 1rem;
+    padding: 1rem 2rem;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid dodgerblue;
+}
+.btn:active{
+    background-color: rgb(27, 137, 247);
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
